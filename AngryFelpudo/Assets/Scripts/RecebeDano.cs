@@ -29,6 +29,7 @@ public class RecebeDano : MonoBehaviour {
 
         sRenderer.sprite = imagemMachucado; // usa o sprite
         pontosDeVidaAtuais--;
+        Debug.Log(pontosDeVidaAtuais);
 
         if(pontosDeVidaAtuais <= 0) // se zerar
         {
